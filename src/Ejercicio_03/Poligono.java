@@ -5,8 +5,6 @@
  */
 package Ejercicio_03;
 
-import static Principal.MetodoMain.llenarRectangulo;
-import static Principal.MetodoMain.llenarTriangulo;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -14,10 +12,7 @@ import java.util.Scanner;
  *
  * @author eduardo
  */
-public abstract class Poligono implements FiguraGeometrica {
-
-    // Se llena el array dinamico con diferentes poligonos
-    static ArrayList<Poligono> poligono = new ArrayList<Poligono>();
+public abstract class Poligono {
 
     protected int numeroLados;
 
@@ -37,6 +32,7 @@ public abstract class Poligono implements FiguraGeometrica {
     //Declaramos el metodo area como abstracto    
     public abstract double area();
 
+    /*
     @Override
     public void llenarPoligono() {
         Scanner sc = new Scanner(System.in);
@@ -64,5 +60,6 @@ public abstract class Poligono implements FiguraGeometrica {
             System.out.println("");
         } while (respuesta == 's' || respuesta == 'S');
     }
+    */
 
 }
