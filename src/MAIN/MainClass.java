@@ -4,18 +4,17 @@
  * and open the template in the editor.
  */
 package MAIN;
-import Ejercicio_03.PoligonoManager;
+
+import static EjerciciosArrays.Arrays.*;
+import java.util.Scanner;
 
 /**
  *
  * @author Pedro
  */
 public class MainClass {
-    
-     public static void main(String[] args) {
-          PoligonoManager.iniciarEjercicio();
-          PoligonoManager poligonoManager = new PoligonoManager();
-          
+
+    public static void main(String[] args) {
+ convertirNumerosASCIIaLetras();
     }
-     
 }

@@ -6,9 +6,10 @@
 package Ejercicio_03;
 
 import java.util.ArrayList;
-/**
- *
- * @author Pedro
+/**       
+ * PoligonoManager.iniciarEjercicio();
+   PoligonoManager poligonoManager = new PoligonoManager();
+          
  */
 public class PoligonoManager {
     
